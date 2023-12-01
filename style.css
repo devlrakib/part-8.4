@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* grid-template-columns: 200px auto 200px; */
+    /* grid-template-columns: repeat(4,300px); */
+    /* grid-template-columns: repeat(4,1fr);  => fr means Fruction joto vag hobe tumi akvag nibe */
+    /* grid-template-columns: repeat(6, 1fr)1fr; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-items: end;   => justify items mane nijer moddhe ki hobe */
+    /* justify-items: center; */
+    gap: 3px;
+}
+
+.item{
+    border: 1px solid indianred;
+    font-size: 1.5em;
+    text-align: center;
+}
